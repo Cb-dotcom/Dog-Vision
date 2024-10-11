@@ -12,7 +12,7 @@ This repository contains an end-to-end implementation for multi-class dog breed 
 This project is focused on building a robust deep learning model that can accurately classify different dog breeds from a given image. By utilizing transfer learning techniques with TensorFlow Hub's MobileNetV2—a pre-trained model—both the training speed and accuracy are significantly improved. The project is structured into a series of steps to facilitate systematic development, tracking, and deployment. Each step addresses a specific stage of the machine learning pipeline, from model training to deployment and user interaction.
 
 ## Project Structure
-
+**NB:** Each step has it's own branch, make sure to check them out!
 - **Step 1: Initial Model Training on Colab**
   - The first phase involves setting up the model training environment using Google Colab, where data preprocessing, model architecture design, and initial training are performed. TensorFlow 2.x and TensorFlow Hub are employed to implement transfer learning using MobileNetV2. This step establishes a baseline model capable of classifying 120 different dog breeds with high accuracy.
 
